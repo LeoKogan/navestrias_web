@@ -93,6 +93,8 @@
 			document.querySelector('.nav-menu').classList.toggle('active');
 		});
 		let currentImageIndex = 0;
+		// Get gallery data in Portuguese
+		const galleryData = getGalleryData('pt');
 		function loadGallery() {
 			const grid = document.getElementById('galleryGrid');
 			galleryData.forEach((item, index) => {
