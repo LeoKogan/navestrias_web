@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Navestrias EHS - Contact</title>
+	<link rel="icon" href="icono_navestrias.ico">
+	<link href="modern-styles.css" rel="stylesheet">
+</head>
+<body>
+	<nav class="modern-nav">
+		<div class="nav-container">
+			<a href="home.html" class="nav-logo">NAVESTRIAS EHS</a>
+			<button class="menu-toggle">
+				<span></span><span></span><span></span>
+			</button>
+			<ul class="nav-menu">
+				<li><a href="home.html" data-i18n="nav.home">Inicio</a></li>
+				<li><a href="company.html" data-i18n="nav.company">Empresa</a></li>
+				<li><a href="services.html" data-i18n="nav.services">Servicios</a></li>
+				<li><a href="clients.html" data-i18n="nav.clients">Clientes</a></li>
+				<li><a href="gallery.html" data-i18n="nav.gallery">Galería</a></li>
+				<li><a href="contact.html" class="active" data-i18n="nav.contact">Contacto</a></li>
+				<div class="lang-selector"></div>
+			</ul>
+		</div>
+	</nav>
+
+	<header class="header-banner">
+		<div class="header-banner-content">
+			<h1 id="page-title">Contáctenos</h1>
+			<p id="page-subtitle">Estamos aquí para ayudarle</p>
+		</div>
+	</header>
+
+	<main>
+		<section class="content-section">
+			<div class="container">
+				<div class="content-card" style="max-width: 600px; margin: 0 auto; text-align: center;">
+					<h2 id="info-title">Información de Contacto</h2>
+					<p id="info-text">Para consultas sobre nuestros servicios o para solicitar una cotización, contáctenos por correo electrónico:</p>
+
+					<div style="margin: 3rem 0;">
+						<a href="mailto:info@navestrias.com" class="btn" style="font-size: 1.25rem; padding: 1rem 2rem;">
+							info@navestrias.com
+						</a>
+					</div>
+
+					<p><strong id="info-company">NAVESTRIAS EHS</strong></p>
+					<p id="info-tagline">Consultora en Ambiente, Salud Ocupacional y Seguridad en el Trabajo</p>
+					<p id="info-location">Argentina | Brasil</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="content-section bg-light">
+			<div class="container">
+				<h2 style="text-align: center;" id="services-title">Nuestros Servicios</h2>
+				<div class="two-column">
+					<div class="service-card">
+						<h3 id="env-title">Servicios Medioambientales</h3>
+						<ul id="env-list"></ul>
+					</div>
+					<div class="service-card">
+						<h3 id="safety-title">Higiene y Seguridad</h3>
+						<ul id="safety-list"></ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="modern-footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-section">
+					<h4 data-i18n="footer.company">Navestrias EHS</h4>
+					<p data-i18n="footer.tagline">Consultora en Ambiente, Salud Ocupacional y Seguridad</p>
+					<p><a href="mailto:info@navestrias.com">info@navestrias.com</a></p>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>&copy; 2025 Navestrias EHS. <span data-i18n="footer.rights">Todos los derechos reservados</span>.</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/lang-loader.js"></script>
+	<script>
+		window.addEventListener('languageLoaded', function(e) {
+			const t = e.detail.translations.contact || {};
+			document.getElementById('page-title').textContent = t.title || '';
+			document.getElementById('page-subtitle').textContent = t.subtitle || '';
+			document.getElementById('info-title').textContent = t.info?.title || '';
+			document.getElementById('info-text').textContent = t.info?.text || '';
+			document.getElementById('info-company').textContent = t.info?.company || '';
+			document.getElementById('info-tagline').textContent = t.info?.tagline || '';
+			document.getElementById('info-location').textContent = t.info?.location || '';
+			document.getElementById('services-title').textContent = t.services?.title || '';
+			document.getElementById('env-title').textContent = t.services?.environmental?.title || '';
+			document.getElementById('safety-title').textContent = t.services?.safety?.title || '';
+
+			// Populate lists
+			const envList = document.getElementById('env-list');
+			const safetyList = document.getElementById('safety-list');
+
+			if (t.services?.environmental?.items) {
+				envList.innerHTML = t.services.environmental.items.map(item => `<li>${item}</li>`).join('');
+			}
+			if (t.services?.safety?.items) {
+				safetyList.innerHTML = t.services.safety.items.map(item => `<li>${item}</li>`).join('');
+			}
+
+			document.title = `${t.title || 'Contact'} - Navestrias EHS`;
+		});
+
+		document.querySelector('.menu-toggle').addEventListener('click', function() {
+			document.querySelector('.nav-menu').classList.toggle('active');
+		});
+	</script>
+</body>
+</html>

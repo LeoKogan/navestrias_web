@@ -159,15 +159,15 @@
 		<p class="splash-tagline-alt">Consultora en Ambiente, Salud Ocupacional y Seguridad</p>
 
 		<div class="language-selector">
-			<a href="es/index.html" class="lang-button">
+			<a href="home.html?lang=es" class="lang-button">
 				<img src="Images/flags_of_Argentina.gif" alt="Español">
 				<span>Español</span>
 			</a>
-			<a href="en/index.html" class="lang-button">
+			<a href="home.html?lang=en" class="lang-button">
 				<img src="Images/flags_of_Inglaterra.gif" alt="English">
 				<span>English</span>
 			</a>
-			<a href="po/index.html" class="lang-button">
+			<a href="home.html?lang=pt" class="lang-button">
 				<img src="Images/flags_of_Brazil.gif" alt="Português">
 				<span>Português</span>
 			</a>
@@ -189,18 +189,18 @@
 
 	// Check if user has already visited (don't auto-redirect again)
 	if (!sessionStorage.getItem('languageSelected')) {
-		let redirectPath = 'en/index.html'; // default to English
+		let lang = 'en'; // default to English
 
 		if (langCode === 'es') {
-			redirectPath = 'es/index.html';
+			lang = 'es';
 		} else if (langCode === 'pt') {
-			redirectPath = 'po/index.html';
+			lang = 'pt';
 		}
 
 		// Show a brief message before redirecting
 		const timeout = setTimeout(() => {
 			sessionStorage.setItem('languageSelected', 'true');
-			window.location.href = redirectPath;
+			window.location.href = `home.html?lang=${lang}`;
 		}, 1500); // 1.5 second delay to show the landing page
 
 		// If user clicks a language button, cancel auto-redirect

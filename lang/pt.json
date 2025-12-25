@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "home": "Início",
+    "company": "Empresa",
+    "services": "Serviços",
+    "clients": "Clientes",
+    "gallery": "Galeria",
+    "contact": "Contato"
+  },
+  "footer": {
+    "company": "Navestrias EHS",
+    "tagline": "Consultoria em Meio Ambiente, Saúde e Segurança Ocupacional",
+    "rights": "Todos os direitos reservados"
+  },
+  "home": {
+    "title": "NAVESTRIAS EHS",
+    "subtitle": "Consultoria em Meio Ambiente, Saúde e Segurança Ocupacional",
+    "services": {
+      "title": "Serviços Ambientais",
+      "description": "Serviços profissionais baseados em nosso conhecimento e experiência."
+    },
+    "safety": {
+      "title": "Higiene e Segurança",
+      "description": "Design para eliminar perigos e treinamento de funcionários."
+    },
+    "cta": {
+      "title": "Pronto para Começar?",
+      "button": "Entre em Contato Hoje"
+    }
+  },
+  "company": {
+    "title": "Nossa Empresa",
+    "subtitle": "Consultoria em Meio Ambiente, Saúde e Segurança Ocupacional",
+    "about": {
+      "title": "Sobre a NAVESTRIAS EHS",
+      "text": [
+        "<strong>NAVESTRIAS EHS</strong> é uma Consultoria em Meio Ambiente, Saúde Ocupacional e Segurança no Trabalho (EHS).",
+        "Especializamo-nos na resolução dos desafios em EHS que enfrentam as organizações e empresas tanto do setor privado como público.",
+        "Oferecemos uma resposta adequada, baseada em senso comum e com valores acessíveis nestes serviços que ajudam nossos clientes a cumprir com os requerimentos legais regulatórios e manter simultaneamente um local de trabalho seguro e produtivo.",
+        "Assistimos nos temas simples que requerem rápida resolução ou podemos colaborar de maneira interna para a organização na área de Saúde, Segurança no trabalho e Meio ambiente eliminando gastos de pessoal em tempo completo.",
+        "Provemos experiência para a identificação, avaliação, controle e redução dos Riscos Industriais e Ambientais."
+      ]
+    },
+    "cta": {
+      "title": "Deseja conhecer mais sobre nossa empresa?",
+      "button": "Entre em Contato"
+    }
+  },
+  "clients": {
+    "title": "Nossos Clientes",
+    "subtitle": "Projetos e Colaborações Notáveis",
+    "intro": {
+      "title": "Projetos Realizados",
+      "text": "NAVESTRIAS EHS tem trabalhado com importantes empresas em projetos de Meio Ambiente, Saúde Ocupacional e Segurança na Argentina, Brasil, Chile e Uruguai."
+    },
+    "cta": {
+      "title": "Deseja trabalhar conosco?",
+      "button": "Entre em Contato"
+    }
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Estamos Aqui para Ajudar",
+    "info": {
+      "title": "Informação de Contato",
+      "text": "Para consultas sobre nossos serviços ou para solicitar uma cotação, entre em contato por e-mail:",
+      "company": "NAVESTRIAS EHS",
+      "tagline": "Consultoria em Meio Ambiente, Saúde e Segurança Ocupacional",
+      "location": "Argentina | Brasil"
+    },
+    "services": {
+      "title": "Nossos Serviços",
+      "environmental": {
+        "title": "Serviços Ambientais",
+        "items": [
+          "Estudos de Impacto Ambiental",
+          "Auditorias Ambientais",
+          "Gestão Ambiental",
+          "Avaliação de Locais"
+        ]
+      },
+      "safety": {
+        "title": "Higiene e Segurança",
+        "items": [
+          "Segurança no Trabalho",
+          "Avaliação de Riscos",
+          "Inspeções Industriais",
+          "Cumprimento Normativo"
+        ]
+      }
+    }
+  }
+}

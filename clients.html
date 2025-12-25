@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Navestrias EHS - Clients</title>
+	<link rel="icon" href="icono_navestrias.ico">
+	<link href="modern-styles.css" rel="stylesheet">
+	<style>
+		.clients-list {
+			margin-top: 2rem;
+		}
+		.client-item {
+			display: flex;
+			gap: 1rem;
+			padding: 1rem;
+			margin-bottom: 0.5rem;
+			background: white;
+			border-radius: 8px;
+			box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+		}
+		.client-item:nth-child(even) {
+			background: #f9fafb;
+		}
+		.client-icon {
+			color: var(--primary-green);
+			font-size: 1.5rem;
+			flex-shrink: 0;
+		}
+		.client-item p {
+			margin: 0;
+			line-height: 1.6;
+		}
+	</style>
+</head>
+<body>
+	<nav class="modern-nav">
+		<div class="nav-container">
+			<a href="home.html" class="nav-logo">NAVESTRIAS EHS</a>
+			<button class="menu-toggle">
+				<span></span><span></span><span></span>
+			</button>
+			<ul class="nav-menu">
+				<li><a href="home.html" data-i18n="nav.home">Inicio</a></li>
+				<li><a href="company.html" data-i18n="nav.company">Empresa</a></li>
+				<li><a href="services.html" data-i18n="nav.services">Servicios</a></li>
+				<li><a href="clients.html" class="active" data-i18n="nav.clients">Clientes</a></li>
+				<li><a href="gallery.html" data-i18n="nav.gallery">Galería</a></li>
+				<li><a href="contact.html" data-i18n="nav.contact">Contacto</a></li>
+				<div class="lang-selector"></div>
+			</ul>
+		</div>
+	</nav>
+
+	<header class="header-banner">
+		<div class="header-banner-content">
+			<h1 id="page-title">Nuestros Clientes</h1>
+			<p id="page-subtitle">Proyectos y Colaboraciones Destacadas</p>
+		</div>
+	</header>
+
+	<main>
+		<section class="content-section">
+			<div class="container">
+				<div class="content-card">
+					<h2 id="intro-title">Proyectos Realizados</h2>
+					<p id="intro-text">NAVESTRIAS EHS ha trabajado con importantes empresas en proyectos...</p>
+				</div>
+
+				<div class="clients-list" id="projects-list"></div>
+			</div>
+		</section>
+
+		<section class="content-section bg-light">
+			<div class="container">
+				<div class="cta-section">
+					<h2 id="cta-title">¿Desea trabajar con nosotros?</h2>
+					<a href="contact.html" class="btn" id="cta-button">Contáctenos</a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="modern-footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-section">
+					<h4 data-i18n="footer.company">Navestrias EHS</h4>
+					<p data-i18n="footer.tagline">Consultora en Ambiente, Salud Ocupacional y Seguridad</p>
+					<p><a href="mailto:info@navestrias.com">info@navestrias.com</a></p>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>&copy; 2025 Navestrias EHS. <span data-i18n="footer.rights">Todos los derechos reservados</span>.</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/lang-loader.js"></script>
+	<script>
+		window.addEventListener('languageLoaded', function(e) {
+			const t = e.detail.translations.clients || {};
+			document.getElementById('page-title').textContent = t.title || '';
+			document.getElementById('page-subtitle').textContent = t.subtitle || '';
+			document.getElementById('intro-title').textContent = t.intro?.title || '';
+			document.getElementById('intro-text').textContent = t.intro?.text || '';
+			document.getElementById('cta-title').textContent = t.cta?.title || '';
+			document.getElementById('cta-button').textContent = t.cta?.button || '';
+
+			// Populate projects list
+			const projectsList = document.getElementById('projects-list');
+			if (t.projects) {
+				projectsList.innerHTML = t.projects.map(project => `
+					<div class="client-item">
+						<span class="client-icon">●</span>
+						<p>${project}</p>
+					</div>
+				`).join('');
+			}
+
+			document.title = `${t.title || 'Clients'} - Navestrias EHS`;
+		});
+
+		document.querySelector('.menu-toggle').addEventListener('click', function() {
+			document.querySelector('.nav-menu').classList.toggle('active');
+		});
+	</script>
+</body>
+</html>

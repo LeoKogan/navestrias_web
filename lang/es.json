@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "company": "Empresa",
+    "services": "Servicios",
+    "clients": "Clientes",
+    "gallery": "Galería",
+    "contact": "Contacto"
+  },
+  "footer": {
+    "company": "Navestrias EHS",
+    "tagline": "Consultora en Ambiente, Salud Ocupacional y Seguridad",
+    "rights": "Todos los derechos reservados"
+  },
+  "home": {
+    "title": "NAVESTRIAS EHS",
+    "subtitle": "Consultora en Ambiente, Salud Ocupacional y Seguridad",
+    "services": {
+      "title": "Servicios Medioambientales",
+      "description": "Servicios profesionales basados en nuestro conocimiento y experiencia."
+    },
+    "safety": {
+      "title": "Higiene y Seguridad",
+      "description": "Diseño para eliminar peligros y capacitación de empleados."
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar?",
+      "button": "Contáctenos"
+    }
+  },
+  "company": {
+    "title": "Nuestra Empresa",
+    "subtitle": "Consultora en Ambiente, Salud Ocupacional y Seguridad",
+    "about": {
+      "title": "Acerca de NAVESTRIAS EHS",
+      "text": [
+        "<strong>NAVESTRIAS EHS</strong> es una Consultora en Ambiente, Salud Ocupacional y Seguridad en el Trabajo (EHS).",
+        "Nos especializamos en la resolución de los desafíos en EHS que enfrentan las organizaciones y empresas tanto del sector privado como público.",
+        "Ofrecemos una respuesta adecuada, basada en sentido común y con valores accesibles en estos servicios que ayudan a nuestros clientes a cumplir con los requerimientos legales regulatorios y mantener simultáneamente un seguro y productivo lugar de trabajo.",
+        "Asistimos en los temas sencillos que requieren rápida resolución o podemos colaborar de maneira interna para la organización en el área de Salud, Seguridad en el trabajo y Medio ambiente eliminando gastos de personal a tiempo completo.",
+        "Proveemos experiencia para la identificación, evaluación, control y reducción de los Riesgos Industriales y Medioambientales."
+      ]
+    },
+    "services": {
+      "title": "Nuestros Servicios Incluyen",
+      "environmental": {
+        "title": "Servicios Ambientales",
+        "items": [
+          "Investigación en Instalaciones y predios",
+          "Manejo de Sustancias peligrosas",
+          "Manejo de derrames - Prevención",
+          "Planes de disminución de Riesgos con costos asociados",
+          "Remediación de Sitios",
+          "Monitoreo de Contratistas",
+          "Entrenamiento de Empleados",
+          "Permisos legales de aplicación",
+          "Restauración medioambiental"
+        ]
+      },
+      "monitoring": {
+        "title": "Monitoreo de Riesgos",
+        "text": "<strong>NAVESTRIAS EHS</strong> monitorea los Riesgos químicos, biológicos y físicos, tanto en el lugar de trabajo como en medio ambiente asociado."
+      }
+    },
+    "work": {
+      "title": "Trabajamos con Empleadores y Empleados para:",
+      "items": [
+        "Proveer costo adecuado a soluciones para minimizar o eliminar riesgos y peligros",
+        "Establecer Procedimientos para incrementar la seguridad industrial en el lugar de trabajo e incrementar el confort humano",
+        "Cumplimiento de las Normativas de Higiene, Seguridad en el trabajo y Medio ambiente",
+        "Proveer relevamientos de buena fe y diligentemente (due diligence)"
+      ],
+      "team": "<strong>NAVESTRIAS EHS</strong> posee Jefes de Proyectos como Ingenieros Químicos, Especialistas de Higiene y Seguridad en el trabajo y Especialistas Ambientales."
+    },
+    "legislation": {
+      "title": "Legislación de Aplicación",
+      "argentina": {
+        "title": "ARGENTINA",
+        "items": [
+          "Ley Nacional 24051 Residuos Peligrosos, Decreto reglamentario 831/93",
+          "Ley Nacional 25612 Gestión de Residuos Industriales",
+          "Ley 19587 - Higiene y Seguridad en el Trabajo",
+          "Ley 24557 - Riesgos del Trabajo",
+          "Programa de Seguridad"
+        ]
+      },
+      "brazil": {
+        "title": "BRASIL",
+        "items": ["Legislación brasileña aplicable"]
+      }
+    },
+    "cta": {
+      "title": "¿Desea conocer más sobre nuestra empresa?",
+      "button": "Contáctenos"
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones profesionales en Ambiente, Salud Ocupacional y Seguridad"
+  },
+  "clients": {
+    "title": "Nuestros Clientes",
+    "subtitle": "Proyectos y Colaboraciones Destacadas",
+    "intro": {
+      "title": "Proyectos Realizados",
+      "text": "NAVESTRIAS EHS ha trabajado con importantes empresas en proyectos de Ambiente, Salud Ocupacional y Seguridad en Argentina, Brasil, Chile y Uruguay."
+    },
+    "projects": [
+      "Evaluación de Impacto Ambiental. Ampliación Gasoducto Centro-Oeste. Argentina, 1995. Consultoría en ARCAN SA para TGN SA.",
+      "Evaluación de Impacto Ambiental. Construcción de Loops en el Gasoducto del Norte Argentina, 1996. Consultoría en ARCAN SA para TGN SA.",
+      "Evaluación de Impacto Ambiental. Instalación de Trampas Scraper Gasoducto Aldao- Santa Fé. 1996. Consultoría en ARCAN SA para TGN SA.",
+      "Inspección Ambiental. Construcción del Gasoducto Gasandes. Argentina-Chile. 1996 Tarea en Campo, en ARCAN SA para GASANDES SA",
+      "Evaluación de Impacto Ambiental. Construcción del Gasoducto de alimentación usina Termoeléctrica San Nicolas. 1997. Consultoría en ARCAN SA para AES Inc.",
+      "Inspección en Medio Ambiente, Salud Ocupacional y Seguridad en el Trabajo. Construcción del Gasoducto Gaspacifico. Argentina-Chile. 1999 Tareas en Campo, en ARCAN SA para GASPACIFICO SA",
+      "Auditoría en Medio Ambiente, Salud Ocupacional y Seguridad en el Trabajo en la construcción del Gasoducto Cruz Del Sur. 2001. Argentina-Uruguay. Consultoría en SERMAN y Asociados para GASODUCTO CRUZ DEL SUR SA.",
+      "Evaluación de Impacto Ambiental. Adecuación Plantas Cardales, Gral Pacheco y Gral. Rodríguez para pasaje de scrapers. 2001. Consultoría en HASA para TGN SA.",
+      "Inspección en Seguridad e Higiene en el Trabajo. Regulación del sistema Lagunar, Gomez Carpincho Rocha. Argentina, 2004. Tareas en Campo, en SERMAN y asociados"
+    ],
+    "cta": {
+      "title": "¿Desea trabajar con nosotros?",
+      "button": "Contáctenos"
+    }
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "Estamos aquí para ayudarle",
+    "info": {
+      "title": "Información de Contacto",
+      "text": "Para consultas sobre nuestros servicios o para solicitar una cotización, contáctenos por correo electrónico:",
+      "company": "NAVESTRIAS EHS",
+      "tagline": "Consultora en Ambiente, Salud Ocupacional y Seguridad en el Trabajo",
+      "location": "Argentina | Brasil"
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "environmental": {
+        "title": "Servicios Medioambientales",
+        "items": [
+          "Estudios de Impacto Ambiental",
+          "Auditorías Ambientales",
+          "Gestión Ambiental",
+          "Evaluación de Sitios"
+        ]
+      },
+      "safety": {
+        "title": "Higiene y Seguridad",
+        "items": [
+          "Seguridad en el Trabajo",
+          "Evaluación de Riesgos",
+          "Inspecciones Industriales",
+          "Cumplimiento Normativo"
+        ]
+      }
+    }
+  }
+}
