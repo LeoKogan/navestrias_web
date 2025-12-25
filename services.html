@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Navestrias EHS - Services</title>
+	<link rel="icon" href="icono_navestrias.ico">
+	<link href="modern-styles.css" rel="stylesheet">
+</head>
+<body>
+	<nav class="modern-nav">
+		<div class="nav-container">
+			<a href="home.html" class="nav-logo">NAVESTRIAS EHS</a>
+			<button class="menu-toggle">
+				<span></span><span></span><span></span>
+			</button>
+			<ul class="nav-menu">
+				<li><a href="home.html" data-i18n="nav.home">Inicio</a></li>
+				<li><a href="company.html" data-i18n="nav.company">Empresa</a></li>
+				<li><a href="services.html" class="active" data-i18n="nav.services">Servicios</a></li>
+				<li><a href="clients.html" data-i18n="nav.clients">Clientes</a></li>
+				<li><a href="gallery.html" data-i18n="nav.gallery">Galería</a></li>
+				<li><a href="contact.html" data-i18n="nav.contact">Contacto</a></li>
+				<div class="lang-selector"></div>
+			</ul>
+		</div>
+	</nav>
+
+	<header class="header-banner">
+		<div class="header-banner-content">
+			<h1 id="page-title">Nuestros Servicios</h1>
+			<p id="page-subtitle">Soluciones profesionales en Ambiente, Salud Ocupacional y Seguridad</p>
+		</div>
+	</header>
+
+	<main>
+		<section class="content-section">
+			<div class="container">
+				<div class="content-card">
+					<h2 id="services-main-title">Nuestros Servicios Incluyen</h2>
+
+					<div class="two-column" style="margin-top: 2rem;">
+						<div>
+							<h3 id="env-services-title">Servicios Ambientales</h3>
+							<ul id="env-services-list" class="services-list"></ul>
+						</div>
+						<div>
+							<h3 id="monitoring-title">Monitoreo de Riesgos</h3>
+							<p id="monitoring-text"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="content-section bg-light">
+			<div class="container">
+				<div class="content-card">
+					<h2 id="work-title">Trabajamos con Empleadores y Empleados para:</h2>
+					<ul id="work-list" class="services-list"></ul>
+					<p id="team-text" style="margin-top: 2rem; font-style: italic;"></p>
+				</div>
+			</div>
+		</section>
+
+		<section class="content-section">
+			<div class="container">
+				<div class="content-card">
+					<h2 id="legislation-title">Legislación de Aplicación</h2>
+					<div class="two-column" style="margin-top: 2rem;">
+						<div>
+							<h3 id="argentina-title">ARGENTINA</h3>
+							<ul id="argentina-list" class="services-list"></ul>
+						</div>
+						<div>
+							<h3 id="brazil-title">BRASIL</h3>
+							<ul id="brazil-list" class="services-list"></ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="cta-section">
+			<div class="container">
+				<h2 id="cta-title">¿Desea conocer más sobre nuestros servicios?</h2>
+				<a href="contact.html" class="btn" id="cta-button">Contáctenos</a>
+			</div>
+		</section>
+	</main>
+
+	<footer class="modern-footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-section">
+					<h4 data-i18n="footer.company">Navestrias EHS</h4>
+					<p data-i18n="footer.tagline">Consultora en Ambiente, Salud Ocupacional y Seguridad</p>
+					<p><a href="mailto:info@navestrias.com">info@navestrias.com</a></p>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>&copy; 2025 Navestrias EHS. <span data-i18n="footer.rights">Todos los derechos reservados</span>.</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/lang-loader.js"></script>
+	<script>
+		window.addEventListener('languageLoaded', function(e) {
+			const t = e.detail.translations.company || {};
+
+			// Update page title and subtitle
+			const servicesData = t.services || {};
+			document.getElementById('page-title').textContent = e.detail.translations.services?.title || 'Nuestros Servicios';
+			document.getElementById('page-subtitle').textContent = e.detail.translations.services?.subtitle || 'Soluciones profesionales en Ambiente, Salud Ocupacional y Seguridad';
+
+			// Services section
+			document.getElementById('services-main-title').textContent = servicesData.title || 'Nuestros Servicios Incluyen';
+			document.getElementById('env-services-title').textContent = servicesData.environmental?.title || 'Servicios Ambientales';
+
+			// Environmental services list
+			const envList = document.getElementById('env-services-list');
+			if (servicesData.environmental?.items) {
+				envList.innerHTML = servicesData.environmental.items.map(item => `<li>${item}</li>`).join('');
+			}
+
+			// Monitoring section
+			document.getElementById('monitoring-title').textContent = servicesData.monitoring?.title || 'Monitoreo de Riesgos';
+			document.getElementById('monitoring-text').innerHTML = servicesData.monitoring?.text || '';
+
+			// Work section
+			const workData = t.work || {};
+			document.getElementById('work-title').textContent = workData.title || 'Trabajamos con Empleadores y Empleados para:';
+
+			const workList = document.getElementById('work-list');
+			if (workData.items) {
+				workList.innerHTML = workData.items.map(item => `<li>${item}</li>`).join('');
+			}
+			document.getElementById('team-text').innerHTML = workData.team || '';
+
+			// Legislation section
+			const legislationData = t.legislation || {};
+			document.getElementById('legislation-title').textContent = legislationData.title || 'Legislación de Aplicación';
+			document.getElementById('argentina-title').textContent = legislationData.argentina?.title || 'ARGENTINA';
+			document.getElementById('brazil-title').textContent = legislationData.brazil?.title || 'BRASIL';
+
+			const argList = document.getElementById('argentina-list');
+			if (legislationData.argentina?.items) {
+				argList.innerHTML = legislationData.argentina.items.map(item => `<li>${item}</li>`).join('');
+			}
+
+			const brazilList = document.getElementById('brazil-list');
+			if (legislationData.brazil?.items) {
+				brazilList.innerHTML = legislationData.brazil.items.map(item => `<li>${item}</li>`).join('');
+			}
+
+			// CTA section
+			const ctaData = t.cta || {};
+			document.getElementById('cta-title').textContent = ctaData.title || '¿Desea conocer más?';
+			document.getElementById('cta-button').textContent = ctaData.button || 'Contáctenos';
+
+			document.title = `${e.detail.translations.services?.title || 'Services'} - Navestrias EHS`;
+		});
+
+		document.querySelector('.menu-toggle').addEventListener('click', function() {
+			document.querySelector('.nav-menu').classList.toggle('active');
+		});
+	</script>
+</body>
+</html>
