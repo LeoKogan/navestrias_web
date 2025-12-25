@@ -121,6 +121,10 @@
       "button": "Contáctenos"
     }
   },
+  "gallery": {
+    "title": "Galería de Proyectos",
+    "subtitle": "Nuestros Trabajos en Ambiente y Seguridad"
+  },
   "contact": {
     "title": "Contáctenos",
     "subtitle": "Estamos aquí para ayudarle",

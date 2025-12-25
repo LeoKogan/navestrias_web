@@ -58,6 +58,10 @@
       "button": "Contact Us"
     }
   },
+  "gallery": {
+    "title": "Project Gallery",
+    "subtitle": "Our Environmental and Safety Work"
+  },
   "contact": {
     "title": "Contact Us",
     "subtitle": "We're Here to Help",

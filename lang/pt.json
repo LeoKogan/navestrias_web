@@ -58,6 +58,10 @@
       "button": "Entre em Contato"
     }
   },
+  "gallery": {
+    "title": "Galeria de Projetos",
+    "subtitle": "Nossos Trabalhos em Meio Ambiente e Segurança"
+  },
   "contact": {
     "title": "Entre em Contato",
     "subtitle": "Estamos Aqui para Ajudar",
