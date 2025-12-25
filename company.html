@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Navestrias EHS - Company</title>
+	<link rel="icon" href="icono_navestrias.ico">
+	<link href="modern-styles.css" rel="stylesheet">
+</head>
+<body>
+	<nav class="modern-nav">
+		<div class="nav-container">
+			<a href="home.html" class="nav-logo">NAVESTRIAS EHS</a>
+			<button class="menu-toggle">
+				<span></span><span></span><span></span>
+			</button>
+			<ul class="nav-menu">
+				<li><a href="home.html" data-i18n="nav.home">Inicio</a></li>
+				<li><a href="company.html" class="active" data-i18n="nav.company">Empresa</a></li>
+				<li><a href="services.html" data-i18n="nav.services">Servicios</a></li>
+				<li><a href="clients.html" data-i18n="nav.clients">Clientes</a></li>
+				<li><a href="gallery.html" data-i18n="nav.gallery">Galería</a></li>
+				<li><a href="contact.html" data-i18n="nav.contact">Contacto</a></li>
+				<div class="lang-selector"></div>
+			</ul>
+		</div>
+	</nav>
+
+	<header class="header-banner">
+		<div class="header-banner-content">
+			<h1 id="page-title">Nuestra Empresa</h1>
+			<p id="page-subtitle">Consultora en Ambiente, Salud Ocupacional y Seguridad</p>
+		</div>
+	</header>
+
+	<main>
+		<section class="content-section">
+			<div class="container">
+				<div class="content-card">
+					<h2 id="about-title">Acerca de NAVESTRIAS EHS</h2>
+					<div id="about-content"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="content-section bg-light" id="services-section"></section>
+		<section class="content-section" id="work-section"></section>
+		<section class="content-section bg-light" id="legislation-section"></section>
+
+		<section class="content-section">
+			<div class="container">
+				<div class="cta-section">
+					<h2 id="cta-title">¿Desea conocer más sobre nuestra empresa?</h2>
+					<a href="contact.html" class="btn" id="cta-button">Contáctenos</a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="modern-footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-section">
+					<h4 data-i18n="footer.company">Navestrias EHS</h4>
+					<p data-i18n="footer.tagline">Consultora en Ambiente, Salud Ocupacional y Seguridad</p>
+					<p><a href="mailto:info@navestrias.com">info@navestrias.com</a></p>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>&copy; 2025 Navestrias EHS. <span data-i18n="footer.rights">Todos los derechos reservados</span>.</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/lang-loader.js"></script>
+	<script>
+		window.addEventListener('languageLoaded', function(e) {
+			const t = e.detail.translations.company || {};
+			document.getElementById('page-title').textContent = t.title || '';
+			document.getElementById('page-subtitle').textContent = t.subtitle || '';
+			document.getElementById('about-title').textContent = t.about?.title || '';
+
+			// About content
+			const aboutContent = document.getElementById('about-content');
+			if (t.about?.text) {
+				aboutContent.innerHTML = t.about.text.map(p => `<p>${p}</p>`).join('');
+			}
+
+			document.getElementById('cta-title').textContent = t.cta?.title || '';
+			document.getElementById('cta-button').textContent = t.cta?.button || '';
+			document.title = `${t.title || 'Company'} - Navestrias EHS`;
+		});
+
+		document.querySelector('.menu-toggle').addEventListener('click', function() {
+			document.querySelector('.nav-menu').classList.toggle('active');
+		});
+	</script>
+</body>
+</html>

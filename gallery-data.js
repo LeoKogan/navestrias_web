@@ -1,8 +1,8 @@
 // Gallery data - photos with multi-language captions
 const galleryPhotos = [
 	{
-		thumb: '../Images/photos/1.jpg',
-		image: '../Images/photos/1.jpg',
+		thumb: 'Images/photos/1.jpg',
+		image: 'Images/photos/1.jpg',
 		caption: {
 			es: 'Rio Neuquén superior - Tareas de consolidación de márgenes mediante implante de especies vegetales regionales.',
 			en: 'Upper Neuquén River - Riverbank consolidation work through planting of regional plant species.',
@@ -10,8 +10,8 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: '../Images/photos/3.jpg',
-		image: '../Images/photos/3.jpg',
+		thumb: 'Images/photos/3.jpg',
+		image: 'Images/photos/3.jpg',
 		caption: {
 			es: 'Rio Curi leuvú - Consolidación de márgenes luego del cruce del gasoducto.',
 			en: 'Curi Leuvú River - Riverbank consolidation after pipeline crossing completion.',
@@ -19,8 +19,8 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: '../Images/photos/4.jpg',
-		image: '../Images/photos/4.jpg',
+		thumb: 'Images/photos/4.jpg',
+		image: 'Images/photos/4.jpg',
 		caption: {
 			es: 'Gasoducto - Inicio de revegetación natural debido al adecuado manejo ambiental.',
 			en: 'Pipeline - Natural revegetation beginning due to proper environmental management.',
@@ -28,8 +28,8 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: '../Images/photos/5.jpg',
-		image: '../Images/photos/5.jpg',
+		thumb: 'Images/photos/5.jpg',
+		image: 'Images/photos/5.jpg',
 		caption: {
 			es: 'Revegetación natural en última etapa de construcción.',
 			en: 'Natural revegetation in final construction stage.',
@@ -37,8 +37,8 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: '../Images/photos/7.jpg',
-		image: '../Images/photos/7.jpg',
+		thumb: 'Images/photos/7.jpg',
+		image: 'Images/photos/7.jpg',
 		caption: {
 			es: 'Construcción de gasoducto en zona Cordillera de los Andes.',
 			en: 'Pipeline construction in the Andes mountain range.',
@@ -46,8 +46,8 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: '../Images/photos/8.jpg',
-		image: '../Images/photos/8.jpg',
+		thumb: 'Images/photos/8.jpg',
+		image: 'Images/photos/8.jpg',
 		caption: {
 			es: 'Construcción de gasoducto en zona Cordillera de los Andes.',
 			en: 'Pipeline construction in the Andes mountain range.',
@@ -55,8 +55,8 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: '../Images/photos/13.jpg',
-		image: '../Images/photos/13.jpg',
+		thumb: 'Images/photos/13.jpg',
+		image: 'Images/photos/13.jpg',
 		caption: {
 			es: 'Recomposición de terreno de pista de ducto, Cordillera de los Andes.',
 			en: 'Pipeline right-of-way terrain restoration in the Andes.',
@@ -64,8 +64,8 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: '../Images/photos/16.jpg',
-		image: '../Images/photos/16.jpg',
+		thumb: 'Images/photos/16.jpg',
+		image: 'Images/photos/16.jpg',
 		caption: {
 			es: 'Gasoducto - Gestión ambiental preservando humedales y permitiendo pastaje del ganado.',
 			en: 'Pipeline - Environmental management preserving wetlands and allowing cattle grazing.',
@@ -73,8 +73,8 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: '../Images/photos/19.jpg',
-		image: '../Images/photos/19.jpg',
+		thumb: 'Images/photos/19.jpg',
+		image: 'Images/photos/19.jpg',
 		caption: {
 			es: 'Construcción de ducto en Cordillera de los Andes.',
 			en: 'Pipeline construction in the Andes Mountains.',
@@ -82,8 +82,8 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: '../Images/photos/20.jpg',
-		image: '../Images/photos/20.jpg',
+		thumb: 'Images/photos/20.jpg',
+		image: 'Images/photos/20.jpg',
 		caption: {
 			es: 'Recomposición de mallines en el Norte de Neuquén - Argentina.',
 			en: 'Wetland restoration in Northern Neuquén - Argentina.',
@@ -91,8 +91,8 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: '../Images/photos/21.jpg',
-		image: '../Images/photos/21.jpg',
+		thumb: 'Images/photos/21.jpg',
+		image: 'Images/photos/21.jpg',
 		caption: {
 			es: 'Especies arbóreas implantadas para preservación del cruce con el Rio Neuquén Superior.',
 			en: 'Tree species planted for preservation at the Upper Neuquén River crossing.',
@@ -100,8 +100,8 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: '../Images/photos/22.jpg',
-		image: '../Images/photos/22.jpg',
+		thumb: 'Images/photos/22.jpg',
+		image: 'Images/photos/22.jpg',
 		caption: {
 			es: 'Construcción de cortacorrientes para desviar corrientes de deshielo.',
 			en: 'Water diversion construction to redirect snowmelt runoff.',
@@ -109,8 +109,8 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: '../Images/photos/26.jpg',
-		image: '../Images/photos/26.jpg',
+		thumb: 'Images/photos/26.jpg',
+		image: 'Images/photos/26.jpg',
 		caption: {
 			es: 'Seguridad en tareas.',
 			en: 'Work safety procedures.',
@@ -118,8 +118,8 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: '../Images/photos/31.jpg',
-		image: '../Images/photos/31.jpg',
+		thumb: 'Images/photos/31.jpg',
+		image: 'Images/photos/31.jpg',
 		caption: {
 			es: 'Construcción de ducto.',
 			en: 'Pipeline construction.',
@@ -127,8 +127,8 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: '../Images/photos/33.jpg',
-		image: '../Images/photos/33.jpg',
+		thumb: 'Images/photos/33.jpg',
+		image: 'Images/photos/33.jpg',
 		caption: {
 			es: 'Construcción de ducto, Cordillera de los Andes.',
 			en: 'Pipeline construction in the Andes Mountains.',
@@ -136,8 +136,8 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: '../Images/photos/35.jpg',
-		image: '../Images/photos/35.jpg',
+		thumb: 'Images/photos/35.jpg',
+		image: 'Images/photos/35.jpg',
 		caption: {
 			es: 'Siembra de especies herbáceas para control de erosión en laderas.',
 			en: 'Planting of herbaceous species for slope erosion control.',
@@ -145,8 +145,8 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: '../Images/photos/37.jpg',
-		image: '../Images/photos/37.jpg',
+		thumb: 'Images/photos/37.jpg',
+		image: 'Images/photos/37.jpg',
 		caption: {
 			es: 'Construcción de ducto, Norte Argentino.',
 			en: 'Pipeline construction in Northern Argentina.',
@@ -154,8 +154,8 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: '../Images/photos/38.jpg',
-		image: '../Images/photos/38.jpg',
+		thumb: 'Images/photos/38.jpg',
+		image: 'Images/photos/38.jpg',
 		caption: {
 			es: 'Tareas de construcción en altura.',
 			en: 'High-altitude construction work.',
@@ -163,8 +163,8 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: '../Images/photos/40.jpg',
-		image: '../Images/photos/40.jpg',
+		thumb: 'Images/photos/40.jpg',
+		image: 'Images/photos/40.jpg',
 		caption: {
 			es: 'Instalación de superficie, Gas Natural.',
 			en: 'Surface installation for Natural Gas.',
@@ -172,8 +172,8 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: '../Images/photos/41.jpg',
-		image: '../Images/photos/41.jpg',
+		thumb: 'Images/photos/41.jpg',
+		image: 'Images/photos/41.jpg',
 		caption: {
 			es: 'Construcción en zona de altura.',
 			en: 'Construction in high-altitude area.',

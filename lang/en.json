@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "home": "Home",
+    "company": "Company",
+    "services": "Services",
+    "clients": "Clients",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "footer": {
+    "company": "Navestrias EHS",
+    "tagline": "Environmental, Health and Safety Consulting",
+    "rights": "All rights reserved"
+  },
+  "home": {
+    "title": "NAVESTRIAS EHS",
+    "subtitle": "Environmental, Health and Safety Consulting",
+    "services": {
+      "title": "Environmental Services",
+      "description": "Professional services based on our knowledge and experience."
+    },
+    "safety": {
+      "title": "Health & Safety",
+      "description": "Design to eliminate hazards and employee training."
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "button": "Contact Us Today"
+    }
+  },
+  "company": {
+    "title": "Our Company",
+    "subtitle": "Environmental, Health and Safety Consulting",
+    "about": {
+      "title": "About NAVESTRIAS EHS",
+      "text": [
+        "<strong>NAVESTRIAS EHS</strong> is an Environmental, Health and Safety (EHS) consulting firm.",
+        "We specialize in resolving EHS challenges faced by organizations and companies in both the private and public sectors.",
+        "We offer appropriate solutions based on common sense and accessible values in services that help our clients meet legal regulatory requirements while simultaneously maintaining a safe and productive workplace.",
+        "We assist with simple matters requiring quick resolution or can collaborate internally with the organization in the Health, Safety and Environment area, eliminating full-time personnel expenses.",
+        "We provide expertise for the identification, evaluation, control and reduction of Industrial and Environmental Risks."
+      ]
+    },
+    "cta": {
+      "title": "Want to Learn More About Our Company?",
+      "button": "Contact Us"
+    }
+  },
+  "clients": {
+    "title": "Our Clients",
+    "subtitle": "Notable Projects and Collaborations",
+    "intro": {
+      "title": "Completed Projects",
+      "text": "NAVESTRIAS EHS has worked with major companies on Environment, Occupational Health and Safety projects in Argentina, Brazil, Chile and Uruguay."
+    },
+    "cta": {
+      "title": "Want to Work with Us?",
+      "button": "Contact Us"
+    }
+  },
+  "gallery": {
+    "title": "Project Gallery",
+    "subtitle": "Our Environmental and Safety Work"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're Here to Help",
+    "info": {
+      "title": "Contact Information",
+      "text": "For inquiries about our services or to request a quote, contact us by email:",
+      "company": "NAVESTRIAS EHS",
+      "tagline": "Environmental, Health and Safety Consulting",
+      "location": "Argentina | Brazil"
+    },
+    "services": {
+      "title": "Our Services",
+      "environmental": {
+        "title": "Environmental Services",
+        "items": [
+          "Environmental Impact Studies",
+          "Environmental Audits",
+          "Environmental Management",
+          "Site Assessment"
+        ]
+      },
+      "safety": {
+        "title": "Health & Safety",
+        "items": [
+          "Workplace Safety",
+          "Risk Assessment",
+          "Industrial Inspections",
+          "Regulatory Compliance"
+        ]
+      }
+    }
+  }
+}
