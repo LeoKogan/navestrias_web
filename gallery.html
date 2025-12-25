@@ -117,7 +117,7 @@
 				div.className = 'gallery-item';
 				div.onclick = () => openLightbox(index);
 				div.innerHTML = `
-					<img src="${item.thumb}" alt="${item.caption}" loading="lazy">
+					<img src="${item.image}" alt="${item.caption}" loading="lazy">
 					<div class="gallery-caption">${item.caption}</div>
 				`;
 				grid.appendChild(div);
