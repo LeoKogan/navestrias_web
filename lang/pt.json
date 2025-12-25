@@ -41,10 +41,62 @@
         "Provemos experiência para a identificação, avaliação, controle e redução dos Riscos Industriais e Ambientais."
       ]
     },
+    "services": {
+      "title": "Nossos Serviços Incluem",
+      "environmental": {
+        "title": "Serviços Ambientais",
+        "items": [
+          "Investigação em Instalações e terrenos",
+          "Manejo de Substâncias perigosas",
+          "Manejo de derramamentos - Prevenção",
+          "Planos de diminuição de Riscos com custos associados",
+          "Remediação de Locais",
+          "Monitoramento de Contratados",
+          "Treinamento de Funcionários",
+          "Licenças legais de aplicação",
+          "Restauração ambiental"
+        ]
+      },
+      "monitoring": {
+        "title": "Monitoramento de Riscos",
+        "text": "<strong>NAVESTRIAS EHS</strong> monitora os Riscos químicos, biológicos e físicos, tanto no local de trabalho como no meio ambiente associado."
+      }
+    },
+    "work": {
+      "title": "Trabalhamos com Empregadores e Empregados para:",
+      "items": [
+        "Prover custo adequado para soluções para minimizar ou eliminar riscos e perigos",
+        "Estabelecer Procedimentos para incrementar a segurança industrial no local de trabalho e incrementar o conforto humano",
+        "Cumprimento das Normativas de Higiene, Segurança no trabalho e Meio ambiente",
+        "Prover levantamentos de boa fé e diligentemente (due diligence)"
+      ],
+      "team": "<strong>NAVESTRIAS EHS</strong> possui Chefes de Projetos como Engenheiros Químicos, Especialistas de Higiene e Segurança no trabalho e Especialistas Ambientais."
+    },
+    "legislation": {
+      "title": "Legislação de Aplicação",
+      "argentina": {
+        "title": "ARGENTINA",
+        "items": [
+          "Lei Nacional 24051 Resíduos Perigosos, Decreto regulamentar 831/93",
+          "Lei Nacional 25612 Gestão de Resíduos Industriais",
+          "Lei 19587 - Higiene e Segurança no Trabalho",
+          "Lei 24557 - Riscos do Trabalho",
+          "Programa de Segurança"
+        ]
+      },
+      "brazil": {
+        "title": "BRASIL",
+        "items": ["Legislação brasileira aplicável"]
+      }
+    },
     "cta": {
       "title": "Deseja conhecer mais sobre nossa empresa?",
       "button": "Entre em Contato"
     }
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "subtitle": "Soluções profissionais em Meio Ambiente, Saúde Ocupacional e Segurança"
   },
   "clients": {
     "title": "Nossos Clientes",
@@ -53,6 +105,17 @@
       "title": "Projetos Realizados",
       "text": "NAVESTRIAS EHS tem trabalhado com importantes empresas em projetos de Meio Ambiente, Saúde Ocupacional e Segurança na Argentina, Brasil, Chile e Uruguai."
     },
+    "projects": [
+      "Avaliação de Impacto Ambiental. Ampliação Gasoduto Centro-Oeste. Argentina, 1995. Consultoria em ARCAN SA para TGN SA.",
+      "Avaliação de Impacto Ambiental. Construção de Loops no Gasoduto do Norte Argentina, 1996. Consultoria em ARCAN SA para TGN SA.",
+      "Avaliação de Impacto Ambiental. Instalação de Armadilhas Scraper Gasoduto Aldao-Santa Fé. 1996. Consultoria em ARCAN SA para TGN SA.",
+      "Inspeção Ambiental. Construção do Gasoduto Gasandes. Argentina-Chile. 1996 Tarefa em Campo, em ARCAN SA para GASANDES SA",
+      "Avaliação de Impacto Ambiental. Construção do Gasoduto de alimentação usina Termoelétrica San Nicolas. 1997. Consultoria em ARCAN SA para AES Inc.",
+      "Inspeção em Meio Ambiente, Saúde Ocupacional e Segurança no Trabalho. Construção do Gasoduto Gaspacifico. Argentina-Chile. 1999 Tarefas em Campo, em ARCAN SA para GASPACIFICO SA",
+      "Auditoria em Meio Ambiente, Saúde Ocupacional e Segurança no Trabalho na construção do Gasoduto Cruz Del Sur. 2001. Argentina-Uruguai. Consultoria em SERMAN e Associados para GASODUCTO CRUZ DEL SUR SA.",
+      "Avaliação de Impacto Ambiental. Adequação Plantas Cardales, Gral Pacheco e Gral. Rodríguez para passagem de scrapers. 2001. Consultoria em HASA para TGN SA.",
+      "Inspeção em Segurança e Higiene no Trabalho. Regulação do sistema Lagunar, Gomez Carpincho Rocha. Argentina, 2004. Tarefas em Campo, em SERMAN e associados"
+    ],
     "cta": {
       "title": "Deseja trabalhar conosco?",
       "button": "Entre em Contato"

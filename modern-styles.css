@@ -281,6 +281,28 @@ body {
 	align-items: start;
 }
 
+/* Services List */
+.services-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.services-list li {
+	padding: 0.75rem 0;
+	padding-left: 1.5rem;
+	position: relative;
+	line-height: 1.6;
+}
+
+.services-list li::before {
+	content: '●';
+	color: var(--primary-green);
+	font-size: 0.8rem;
+	position: absolute;
+	left: 0;
+	top: 0.85rem;
+}
+
 /* Call to Action */
 .cta-section {
 	background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-dark) 100%);
