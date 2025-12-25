@@ -1,0 +1,116 @@
+﻿<gallery>
+       <!--The line below defines the path to the folder where your images are-->
+       <setup path="../Images/photos/">
+              <!--The lines below are used to edit and add properties to change the look of the gallery-->
+              <imgWidth>480</imgWidth>
+              <imgHeight>330</imgHeight>
+              <thumbWidth>60</thumbWidth>
+              <thumbHeight>39</thumbHeight>
+	 <backgroundColor>#C4D9C2</backgroundColor>
+	 <thumbActiveColor>#666633</thumbActiveColor>
+              <transitionType>photo</transitionType>
+              <autoPlay>8</autoPlay>
+	 <thumbPosition>left</thumbPosition>
+       </setup>
+       <!--The following lines are where you set the names of images and thumbnails -->
+       <item>
+		<thumb>t1.jpg</thumb>
+		<img>1.jpg</img>
+		<caption>Neuquen River , Argentina - work of bank consolidation  by the implantation of regional vegetal species, after  completing  the crossing of Pipeline at  that point.</caption>
+	</item>
+	<item>
+		<thumb>t3.jpg</thumb>
+		<img>3.jpg</img>
+		<caption>Curileuvu River work of bank consolidation  by the implantation of regional vegetal species, after  completing  the crossing of Pipeline at  that point. </caption>
+	</item>
+	<item>
+		<thumb>t4.jpg</thumb>
+		<img>4.jpg</img>
+		<caption>Begining of natural revegetation in the last stage of the construction, due to the adequate handling of the environmental management during the work.</caption>
+	</item>
+	<item>
+		<thumb>t5.jpg</thumb>
+		<img>5.jpg</img>
+		<caption>Begining of natural revegetation in the last stage of the construction, due to the adequate handling of the environmental management during the work.</caption>
+	</item>
+	<item>
+		<thumb>t7.jpg</thumb>
+		<img>7.jpg</img>
+		<caption>Pipeline construction in Andes Mountains. Argentina.</caption>
+	</item>
+	<item>
+		<thumb>t8.jpg</thumb>
+		<img>8.jpg</img>
+		<caption>Pipeline construction in Andes Mountains. Argentina/caption>
+	</item>
+	<item>
+		<thumb>t13.jpg</thumb>
+		<img>13.jpg</img>
+		<caption>Right of Way recomposition Job.</caption>
+	</item>
+	<item>
+		<thumb>t16.jpg</thumb>
+		<img>16.jpg</img>
+		<caption>Pipeline Construction adequate handling of the environmental management preserving the wet land and allowing the grazing and transit of the cattle. </caption>
+	</item>
+	<item>
+		<thumb>t19.jpg</thumb>
+		<img>19.jpg</img>
+		<caption>Pipeline construction in Andes Mountains. Argentina.</caption>
+	</item>
+	<item>
+		<thumb>t20.jpg</thumb>
+		<img>20.jpg</img>
+		<caption>Wet land repair in The North of Neuquen, Argentina.</caption>
+	</item>
+	<item>
+		<thumb>t21.jpg</thumb>
+		<img>21.jpg</img>
+		<caption>Arboreal species developing, implanted for preservation of the crossing of the pipeline with Neuquen River-Argentina.</caption>
+	</item>
+	<item>
+		<thumb>t22.jpg</thumb>
+		<img>22.jpg</img>
+		<caption>Berms construction to deviate flow of melted ice o rains in the righ of way of pipelines.</caption>
+	</item>
+	<item>
+		<thumb>t26.jpg</thumb>
+		<img>26.jpg</img>
+		<caption>Job Safety.</caption>
+	</item>
+	<item>
+		<thumb>t31.jpg</thumb>
+		<img>31.jpg</img>
+		<caption>Pipeline Construction.</caption>
+	</item>
+	<item>
+		<thumb>t33.jpg</thumb>
+		<img>33.jpg</img>
+		<caption>Pipeline Construction, Andes Mountains.</caption>
+	</item>
+	<item>
+		<thumb>t35.jpg</thumb>
+		<img>35.jpg</img>
+		<caption>Herbs species seeding, to erosion control of slopes.</caption>
+	</item>
+	<item>
+		<thumb>t37.jpg</thumb>
+		<img>37.jpg</img>
+		<caption>Pipeline construction, North of Argentina.</caption>
+	</item>
+	<item>
+		<thumb>t38.jpg</thumb>
+		<img>38.jpg</img>
+		<caption>Construction in high mountain.</caption>
+	</item>
+	<item>
+		<thumb>t40.jpg</thumb>
+		<img>40.jpg</img>
+		<caption>Natural Gas surface facility.</caption>
+	</item>
+	<item>
+		<thumb>t41.jpg</thumb>
+		<img>41.jpg</img>
+		<caption>Construction in high mountain.</caption>
+	</item>
+</gallery>

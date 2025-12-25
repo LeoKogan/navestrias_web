@@ -1,0 +1,116 @@
+﻿<gallery>
+       <!--The line below defines the path to the folder where your images are-->
+       <setup path="Images/photos/">
+              <!--The lines below are used to edit and add properties to change the look of the gallery-->
+              <imgWidth>480</imgWidth>
+              <imgHeight>330</imgHeight>
+              <thumbWidth>60</thumbWidth>
+              <thumbHeight>39</thumbHeight>
+	 <backgroundColor>#C4D9C2</backgroundColor>
+	 <thumbActiveColor>#666633</thumbActiveColor>
+              <transitionType>photo</transitionType>
+              <autoPlay>8</autoPlay>
+	 <thumbPosition>left</thumbPosition>
+       </setup>
+       <!--The following lines are where you set the names of images and thumbnails -->
+       <item>
+		<thumb>t1.jpg</thumb>
+		<img>1.jpg</img>
+		<caption>Rio Neuquén superior - Provincia del Neuquén: Tareas de consolidación de mágenes, mediante implante de estacas de especies vegetales regionales, luego de realizado en ese punto, el cruce del gasoducto.</caption>
+	</item>
+	<item>
+		<thumb>t3.jpg</thumb>
+		<img>3.jpg</img>
+		<caption>Rio Curi leuvú - Provincia del Neuquén: Tareas de consolidación de mágenes, mediante implante de estacas de especies vegetales regionales, luego de completarse en ese punto, el cruce del gasoducto. </caption>
+	</item>
+	<item>
+		<thumb>t4.jpg</thumb>
+		<img>4.jpg</img>
+		<caption>Gasoducto - Provincia del Neuquén: Inicio  de revegetación natural en última etapa de construcción, debido al adecuado manejo de la Gestión ambiental durante la construcción.</caption>
+	</item>
+	<item>
+		<thumb>t5.jpg</thumb>
+		<img>5.jpg</img>
+		<caption>Inicio de revegetación natural en última etapa de construcción, debido al adecuado manejo de la Gestión ambiental durante la construcción.</caption>
+	</item>
+	<item>
+		<thumb>t7.jpg</thumb>
+		<img>7.jpg</img>
+		<caption>Construcción de gasoducto en zona Cordillera de los Andes.</caption>
+	</item>
+	<item>
+		<thumb>t8.jpg</thumb>
+		<img>8.jpg</img>
+		<caption>Construcción de gasoducto en zona Cordillera de los Andes.</caption>
+	</item>
+	<item>
+		<thumb>t13.jpg</thumb>
+		<img>13.jpg</img>
+		<caption>Tareas de recomposición  de terreno de pista de ducto, Cordillera de los Andes.</caption>
+	</item>
+	<item>
+		<thumb>t16.jpg</thumb>
+		<img>16.jpg</img>
+		<caption>Gasoducto - Construcción, adecuada Gestion ambiental, preservando el terreno (humedales) y permitiendo el pastaje y transito del ganado. </caption>
+	</item>
+	<item>
+		<thumb>t19.jpg</thumb>
+		<img>19.jpg</img>
+		<caption>Construcción de ducto  en Cordillera de los Andes.</caption>
+	</item>
+	<item>
+		<thumb>t20.jpg</thumb>
+		<img>20.jpg</img>
+		<caption>Recomposición de mallines en el Norte de Neuquén - Argentina.</caption>
+	</item>
+	<item>
+		<thumb>t21.jpg</thumb>
+		<img>21.jpg</img>
+		<caption>Especies arbóreas en desarrollo, implantadas para preservación del cruce de ducto con el Rio Neuquén Superior.</caption>
+	</item>
+	<item>
+		<thumb>t22.jpg</thumb>
+		<img>22.jpg</img>
+		<caption>Construcción de Cortacorrientes sobreelevadas para desviar corrientes de deshielo o lluvias en el terreno del  derecho de paso de ducto.</caption>
+	</item>
+	<item>
+		<thumb>t26.jpg</thumb>
+		<img>26.jpg</img>
+		<caption>Seguridad en tareas.</caption>
+	</item>
+	<item>
+		<thumb>t31.jpg</thumb>
+		<img>31.jpg</img>
+		<caption>Construcción de ducto.</caption>
+	</item>
+	<item>
+		<thumb>t33.jpg</thumb>
+		<img>33.jpg</img>
+		<caption>Construcción de ducto, Cordillera de los Andes.</caption>
+	</item>
+	<item>
+		<thumb>t35.jpg</thumb>
+		<img>35.jpg</img>
+		<caption>Siembra de especies herbáceas, para control de erosión en laderas.</caption>
+	</item>
+	<item>
+		<thumb>t37.jpg</thumb>
+		<img>37.jpg</img>
+		<caption>Construcción de ducto, Norte Argentino.</caption>
+	</item>
+	<item>
+		<thumb>t38.jpg</thumb>
+		<img>38.jpg</img>
+		<caption>Tareas de construcción en altura.</caption>
+	</item>
+	<item>
+		<thumb>t40.jpg</thumb>
+		<img>40.jpg</img>
+		<caption>Instalación de superficie, Gas Natural.</caption>
+	</item>
+	<item>
+		<thumb>t41.jpg</thumb>
+		<img>41.jpg</img>
+		<caption>Construcción en zona de altura.</caption>
+	</item>
+</gallery>
