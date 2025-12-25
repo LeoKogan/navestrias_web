@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project Gallery - Navestrias EHS</title>
+	<meta name="description" content="View our environmental, health and safety project gallery showcasing our work across Argentina.">
+	<link rel="icon" href="../icono_navestrias.ico">
+	<link href="../modern-styles.css" rel="stylesheet">
+	<link href="../estilo.css" rel="stylesheet">
+</head>
+<body>
+	<!-- Modern Navigation -->
+	<nav class="modern-nav">
+		<div class="nav-container">
+			<a href="index.html" class="nav-logo">NAVESTRIAS EHS</a>
+			<button class="menu-toggle" aria-label="Toggle menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<ul class="nav-menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="company.html">Company</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="clients.html">Clients</a></li>
+				<li><a href="gallery.html" class="active">Gallery</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="contactus.html">Contact</a></li>
+				<div class="lang-selector">
+					<a href="../es/galeria.html" title="Español">🇦🇷 ES</a>
+					<a href="../po/galeria.html" title="Português">🇧🇷 PT</a>
+				</div>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Header Banner -->
+	<header class="header-banner">
+		<div class="header-banner-content">
+			<h1>Project Gallery</h1>
+			<p>Environmental, Health and Safety Projects Across Argentina</p>
+		</div>
+	</header>
+
+	<!-- Main Content -->
+	<main>
+		<section class="gallery-container">
+			<div class="container">
+				<h2 class="section-title">Our Projects</h2>
+				<p class="section-subtitle">Browse through our portfolio of environmental conservation, pipeline construction, and safety projects in the Andes and across Argentina</p>
+
+				<!-- Gallery Grid -->
+				<div class="gallery-grid" id="galleryGrid">
+					<!-- Photos will be loaded here by JavaScript -->
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- Lightbox -->
+	<div class="lightbox" id="lightbox">
+		<button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+		<button class="lightbox-nav lightbox-prev" onclick="navigateGallery(-1)">‹</button>
+		<div class="lightbox-content">
+			<img src="" alt="" class="lightbox-image" id="lightboxImage">
+			<p class="lightbox-caption" id="lightboxCaption"></p>
+		</div>
+		<button class="lightbox-nav lightbox-next" onclick="navigateGallery(1)">›</button>
+	</div>
+
+	<!-- Modern Footer -->
+	<footer class="modern-footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-section">
+					<h4>Navestrias EHS</h4>
+					<p>Environmental, Health and Safety Consulting</p>
+					<p style="margin-top: 1rem;">
+						<a href="mailto:info@navestrias.com">info@navestrias.com</a>
+					</p>
+				</div>
+				<div class="footer-section">
+					<h4>Services</h4>
+					<ul>
+						<li><a href="services.html">Environmental Services</a></li>
+						<li><a href="services.html#1">Health & Safety</a></li>
+						<li><a href="clients.html">Our Clients</a></li>
+					</ul>
+				</div>
+				<div class="footer-section">
+					<h4>Company</h4>
+					<ul>
+						<li><a href="company.html">About Us</a></li>
+						<li><a href="news.html">News</a></li>
+						<li><a href="contactus.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>&copy; 2025 Navestrias EHS. All rights reserved.</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="../gallery-data.js"></script>
+	<script>
+		// Mobile menu toggle
+		document.querySelector('.menu-toggle').addEventListener('click', function() {
+			document.querySelector('.nav-menu').classList.toggle('active');
+		});
+
+		// Current image index
+		let currentImageIndex = 0;
+
+		// Load gallery
+		function loadGallery() {
+			const grid = document.getElementById('galleryGrid');
+			galleryData.forEach((item, index) => {
+				const div = document.createElement('div');
+				div.className = 'gallery-item';
+				div.onclick = () => openLightbox(index);
+				div.innerHTML = `
+					<img src="${item.thumb}" alt="${item.caption}" loading="lazy">
+					<div class="gallery-caption">${item.caption}</div>
+				`;
+				grid.appendChild(div);
+			});
+		}
+
+		// Open lightbox
+		function openLightbox(index) {
+			currentImageIndex = index;
+			const item = galleryData[index];
+			document.getElementById('lightboxImage').src = item.image;
+			document.getElementById('lightboxCaption').textContent = item.caption;
+			document.getElementById('lightbox').classList.add('active');
+			document.body.style.overflow = 'hidden';
+		}
+
+		// Close lightbox
+		function closeLightbox() {
+			document.getElementById('lightbox').classList.remove('active');
+			document.body.style.overflow = '';
+		}
+
+		// Navigate gallery
+		function navigateGallery(direction) {
+			currentImageIndex += direction;
+			if (currentImageIndex < 0) currentImageIndex = galleryData.length - 1;
+			if (currentImageIndex >= galleryData.length) currentImageIndex = 0;
+
+			const item = galleryData[currentImageIndex];
+			document.getElementById('lightboxImage').src = item.image;
+			document.getElementById('lightboxCaption').textContent = item.caption;
+		}
+
+		// Keyboard navigation
+		document.addEventListener('keydown', (e) => {
+			if (document.getElementById('lightbox').classList.contains('active')) {
+				if (e.key === 'Escape') closeLightbox();
+				if (e.key === 'ArrowLeft') navigateGallery(-1);
+				if (e.key === 'ArrowRight') navigateGallery(1);
+			}
+		});
+
+		// Close on background click
+		document.getElementById('lightbox').addEventListener('click', (e) => {
+			if (e.target.id === 'lightbox') closeLightbox();
+		});
+
+		// Load gallery on page load
+		loadGallery();
+	</script>
+</body>
+</html>
