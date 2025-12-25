@@ -1,7 +1,7 @@
 // Gallery data - photos with multi-language captions
 const galleryPhotos = [
 	{
-		thumb: 'Images/photos/1.jpg',
+		thumb: 'Images/photos/t1.jpg',
 		image: 'Images/photos/1.jpg',
 		caption: {
 			es: 'Rio Neuquén superior - Tareas de consolidación de márgenes mediante implante de especies vegetales regionales.',
@@ -10,7 +10,7 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: 'Images/photos/3.jpg',
+		thumb: 'Images/photos/t3.jpg',
 		image: 'Images/photos/3.jpg',
 		caption: {
 			es: 'Rio Curi leuvú - Consolidación de márgenes luego del cruce del gasoducto.',
@@ -19,7 +19,7 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: 'Images/photos/4.jpg',
+		thumb: 'Images/photos/t4.jpg',
 		image: 'Images/photos/4.jpg',
 		caption: {
 			es: 'Gasoducto - Inicio de revegetación natural debido al adecuado manejo ambiental.',
@@ -28,7 +28,7 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: 'Images/photos/5.jpg',
+		thumb: 'Images/photos/t5.jpg',
 		image: 'Images/photos/5.jpg',
 		caption: {
 			es: 'Revegetación natural en última etapa de construcción.',
@@ -37,7 +37,7 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: 'Images/photos/7.jpg',
+		thumb: 'Images/photos/t7.jpg',
 		image: 'Images/photos/7.jpg',
 		caption: {
 			es: 'Construcción de gasoducto en zona Cordillera de los Andes.',
@@ -46,7 +46,7 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: 'Images/photos/8.jpg',
+		thumb: 'Images/photos/t8.jpg',
 		image: 'Images/photos/8.jpg',
 		caption: {
 			es: 'Construcción de gasoducto en zona Cordillera de los Andes.',
@@ -55,7 +55,7 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: 'Images/photos/13.jpg',
+		thumb: 'Images/photos/t13.jpg',
 		image: 'Images/photos/13.jpg',
 		caption: {
 			es: 'Recomposición de terreno de pista de ducto, Cordillera de los Andes.',
@@ -64,7 +64,7 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: 'Images/photos/16.jpg',
+		thumb: 'Images/photos/t16.jpg',
 		image: 'Images/photos/16.jpg',
 		caption: {
 			es: 'Gasoducto - Gestión ambiental preservando humedales y permitiendo pastaje del ganado.',
@@ -73,7 +73,7 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: 'Images/photos/19.jpg',
+		thumb: 'Images/photos/t19.jpg',
 		image: 'Images/photos/19.jpg',
 		caption: {
 			es: 'Construcción de ducto en Cordillera de los Andes.',
@@ -82,7 +82,7 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: 'Images/photos/20.jpg',
+		thumb: 'Images/photos/t20.jpg',
 		image: 'Images/photos/20.jpg',
 		caption: {
 			es: 'Recomposición de mallines en el Norte de Neuquén - Argentina.',
@@ -91,7 +91,7 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: 'Images/photos/21.jpg',
+		thumb: 'Images/photos/t21.jpg',
 		image: 'Images/photos/21.jpg',
 		caption: {
 			es: 'Especies arbóreas implantadas para preservación del cruce con el Rio Neuquén Superior.',
@@ -100,7 +100,7 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: 'Images/photos/22.jpg',
+		thumb: 'Images/photos/t22.jpg',
 		image: 'Images/photos/22.jpg',
 		caption: {
 			es: 'Construcción de cortacorrientes para desviar corrientes de deshielo.',
@@ -109,7 +109,7 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: 'Images/photos/26.jpg',
+		thumb: 'Images/photos/t26.jpg',
 		image: 'Images/photos/26.jpg',
 		caption: {
 			es: 'Seguridad en tareas.',
@@ -118,7 +118,7 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: 'Images/photos/31.jpg',
+		thumb: 'Images/photos/t31.jpg',
 		image: 'Images/photos/31.jpg',
 		caption: {
 			es: 'Construcción de ducto.',
@@ -127,7 +127,7 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: 'Images/photos/33.jpg',
+		thumb: 'Images/photos/t33.jpg',
 		image: 'Images/photos/33.jpg',
 		caption: {
 			es: 'Construcción de ducto, Cordillera de los Andes.',
@@ -136,7 +136,7 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: 'Images/photos/35.jpg',
+		thumb: 'Images/photos/t35.jpg',
 		image: 'Images/photos/35.jpg',
 		caption: {
 			es: 'Siembra de especies herbáceas para control de erosión en laderas.',
@@ -145,7 +145,7 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: 'Images/photos/37.jpg',
+		thumb: 'Images/photos/t37.jpg',
 		image: 'Images/photos/37.jpg',
 		caption: {
 			es: 'Construcción de ducto, Norte Argentino.',
@@ -154,7 +154,7 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: 'Images/photos/38.jpg',
+		thumb: 'Images/photos/t38.jpg',
 		image: 'Images/photos/38.jpg',
 		caption: {
 			es: 'Tareas de construcción en altura.',
@@ -163,7 +163,7 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: 'Images/photos/40.jpg',
+		thumb: 'Images/photos/t40.jpg',
 		image: 'Images/photos/40.jpg',
 		caption: {
 			es: 'Instalación de superficie, Gas Natural.',
@@ -172,7 +172,7 @@ const galleryPhotos = [
 		}
 	},
 	{
-		thumb: 'Images/photos/41.jpg',
+		thumb: 'Images/photos/t41.jpg',
 		image: 'Images/photos/41.jpg',
 		caption: {
 			es: 'Construcción en zona de altura.',
