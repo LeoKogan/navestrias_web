@@ -39,3 +39,60 @@ a:active {
 	color: #FF6633;
 }
 .Estilo13 {color: #E0E7E0}
+
+/* Modern header styles replacing Flash */
+.modern-header {
+	width: 766px;
+	height: 143px;
+	background: linear-gradient(135deg, #66CC33 0%, #009900 50%, #006600 100%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.modern-header::before {
+	content: '';
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	width: 200%;
+	height: 200%;
+	background: repeating-linear-gradient(
+		45deg,
+		transparent,
+		transparent 10px,
+		rgba(255,255,255,0.05) 10px,
+		rgba(255,255,255,0.05) 20px
+	);
+	animation: headerShift 20s linear infinite;
+}
+
+.modern-header-content {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.modern-header-title {
+	font-size: 36px;
+	font-weight: bold;
+	margin: 0;
+	letter-spacing: 3px;
+}
+
+.modern-header-subtitle {
+	font-size: 14px;
+	margin: 10px 0 0 0;
+	opacity: 0.95;
+	font-weight: normal;
+}
+
+@keyframes headerShift {
+	0% { transform: translate(0, 0); }
+	100% { transform: translate(50px, 50px); }
+}
