@@ -74,19 +74,52 @@
     },
     "legislation": {
       "title": "Legislación de Aplicación",
+      "intro": "NAVESTRIAS EHS lleva a cabo su tarea, en acuerdo con la legislación de aplicación en:",
       "argentina": {
         "title": "ARGENTINA",
         "items": [
           "Ley Nacional 24051 Residuos Peligrosos, Decreto reglamentario 831/93",
           "Ley Nacional 25612 Gestión de Residuos Industriales",
-          "Ley 19587 - Higiene y Seguridad en el Trabajo",
-          "Ley 24557 - Riesgos del Trabajo",
-          "Programa de Seguridad"
+          "Ley 19587 -Higiene y Seguridad en el Trabajo- y Ley 24557 -Riesgos del Trabajo-",
+          "Programa de Seguridad",
+          "Ley 1249 GCBA",
+          "Plan de Emergencia y Evacuación",
+          "Ley 11720 Residuos especiales. SPA Provincia de Buenos Aires",
+          "Ley 11723 SPA Provincia de Buenos Aires",
+          "Estudios de Impacto Ambiental",
+          "Análisis de Riesgos en el Trabajo"
         ]
       },
       "brazil": {
         "title": "BRASIL",
-        "items": ["Legislación brasileña aplicable"]
+        "subtitle": "Normas Regulamentadoras - NR -",
+        "items": [
+          "PPRA Programa de Prevenção de Riscos Ambientais",
+          "PCMSO Programa de Controle Médico de Saúde Ocupacional",
+          "PCMAT Programa de Condições e Meio Ambiente do Trabalho",
+          "Laudos Ergonômicos",
+          "PPR (Programa de Proteção Respiratória)",
+          "PGA (Programa de Gerenciamento Auditivo)",
+          "Sistema de Licenciamento de Atividades Poluidoras - SLAP.",
+          "Estudo de Impacto Ambiental - EIA",
+          "Relatório de Impacto Ambiental - RIMA"
+        ]
+      },
+      "venezuela": {
+        "title": "VENEZUELA",
+        "items": [
+          "Ley Orgánica de Prevención, Condiciones y Medio Ambiente de Trabajo. Gaceta Oficial Nº 38.236",
+          "Ley Orgánica del Ambiente. Gaceta Oficial Nº 5.833 Extraordinario",
+          "Auditoría Ambiental",
+          "Evaluación de Impacto ambiental"
+        ]
+      },
+      "spain": {
+        "title": "ESPAÑA",
+        "items": [
+          "Evaluación de Impacto Ambiental, Real decreto legislativo 1302/1986, modificado por la Ley 6/2001",
+          "Ley de Prevención de Riesgos Laborales, Ley 31/1995"
+        ]
       }
     },
     "cta": {

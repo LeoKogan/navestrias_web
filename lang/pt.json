@@ -74,19 +74,52 @@
     },
     "legislation": {
       "title": "Legislação de Aplicação",
+      "intro": "NAVESTRIAS EHS realiza seu trabalho em conformidade com a legislação aplicável em:",
       "argentina": {
         "title": "ARGENTINA",
         "items": [
           "Lei Nacional 24051 Resíduos Perigosos, Decreto regulamentar 831/93",
           "Lei Nacional 25612 Gestão de Resíduos Industriais",
-          "Lei 19587 - Higiene e Segurança no Trabalho",
-          "Lei 24557 - Riscos do Trabalho",
-          "Programa de Segurança"
+          "Lei 19587 -Higiene e Segurança no Trabalho- e Lei 24557 -Riscos do Trabalho-",
+          "Programa de Segurança",
+          "Lei 1249 GCBA",
+          "Plano de Emergência e Evacuação",
+          "Lei 11720 Resíduos especiais. SPA Província de Buenos Aires",
+          "Lei 11723 SPA Província de Buenos Aires",
+          "Estudos de Impacto Ambiental",
+          "Análise de Riscos no Trabalho"
         ]
       },
       "brazil": {
         "title": "BRASIL",
-        "items": ["Legislação brasileira aplicável"]
+        "subtitle": "Normas Regulamentadoras - NR -",
+        "items": [
+          "PPRA Programa de Prevenção de Riscos Ambientais",
+          "PCMSO Programa de Controle Médico de Saúde Ocupacional",
+          "PCMAT Programa de Condições e Meio Ambiente do Trabalho",
+          "Laudos Ergonômicos",
+          "PPR (Programa de Proteção Respiratória)",
+          "PGA (Programa de Gerenciamento Auditivo)",
+          "Sistema de Licenciamento de Atividades Poluidoras - SLAP.",
+          "Estudo de Impacto Ambiental - EIA",
+          "Relatório de Impacto Ambiental - RIMA"
+        ]
+      },
+      "venezuela": {
+        "title": "VENEZUELA",
+        "items": [
+          "Lei Orgânica de Prevenção, Condições e Meio Ambiente de Trabalho. Gazeta Oficial Nº 38.236",
+          "Lei Orgânica do Ambiente. Gazeta Oficial Nº 5.833 Extraordinário",
+          "Auditoria Ambiental",
+          "Avaliação de Impacto ambiental"
+        ]
+      },
+      "spain": {
+        "title": "ESPANHA",
+        "items": [
+          "Avaliação de Impacto Ambiental, Decreto Real legislativo 1302/1986, modificado pela Lei 6/2001",
+          "Lei de Prevenção de Riscos Laborais, Lei 31/1995"
+        ]
       }
     },
     "cta": {

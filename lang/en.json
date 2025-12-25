@@ -74,19 +74,52 @@
     },
     "legislation": {
       "title": "Applicable Legislation",
+      "intro": "NAVESTRIAS EHS carries out its work in accordance with applicable legislation in:",
       "argentina": {
         "title": "ARGENTINA",
         "items": [
           "National Law 24051 Hazardous Waste, Regulatory Decree 831/93",
           "National Law 25612 Industrial Waste Management",
-          "Law 19587 - Occupational Health and Safety",
-          "Law 24557 - Occupational Risks",
-          "Safety Program"
+          "Law 19587 -Occupational Health and Safety- and Law 24557 -Occupational Risks-",
+          "Safety Program",
+          "Law 1249 GCBA",
+          "Emergency and Evacuation Plan",
+          "Law 11720 Special Waste. SPA Province of Buenos Aires",
+          "Law 11723 SPA Province of Buenos Aires",
+          "Environmental Impact Studies",
+          "Occupational Risk Analysis"
         ]
       },
       "brazil": {
         "title": "BRAZIL",
-        "items": ["Applicable Brazilian legislation"]
+        "subtitle": "Regulatory Standards - NR -",
+        "items": [
+          "PPRA Environmental Risk Prevention Program",
+          "PCMSO Occupational Health Medical Control Program",
+          "PCMAT Work Environment Conditions Program",
+          "Ergonomic Reports",
+          "PPR (Respiratory Protection Program)",
+          "PGA (Hearing Management Program)",
+          "Polluting Activities Licensing System - SLAP.",
+          "Environmental Impact Study - EIA",
+          "Environmental Impact Report - RIMA"
+        ]
+      },
+      "venezuela": {
+        "title": "VENEZUELA",
+        "items": [
+          "Organic Law on Prevention, Conditions and Work Environment. Official Gazette No. 38.236",
+          "Organic Environmental Law. Official Gazette No. 5.833 Extraordinary",
+          "Environmental Audit",
+          "Environmental Impact Assessment"
+        ]
+      },
+      "spain": {
+        "title": "SPAIN",
+        "items": [
+          "Environmental Impact Assessment, Royal Legislative Decree 1302/1986, amended by Law 6/2001",
+          "Occupational Risk Prevention Law, Law 31/1995"
+        ]
       }
     },
     "cta": {
