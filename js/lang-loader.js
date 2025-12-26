@@ -18,7 +18,7 @@
 	// Load language JSON file
 	async function loadLanguage(lang) {
 		try {
-			const response = await fetch(`/lang/${lang}.json`);
+			const response = await fetch(`lang/${lang}.json`);
 			if (!response.ok) throw new Error(`Failed to load language: ${lang}`);
 			return await response.json();
 		} catch (error) {

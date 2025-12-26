@@ -190,6 +190,3 @@ function getGalleryData(lang = 'es') {
 		caption: photo.caption[lang] || photo.caption.es
 	}));
 }
-
-// Legacy compatibility - defaults to Spanish
-const galleryData = getGalleryData('es');

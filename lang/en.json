@@ -41,10 +41,95 @@
         "We provide expertise for the identification, evaluation, control and reduction of Industrial and Environmental Risks."
       ]
     },
+    "services": {
+      "title": "Our Services Include",
+      "environmental": {
+        "title": "Environmental Services",
+        "items": [
+          "Facility and Site Investigation",
+          "Hazardous Materials Management",
+          "Spill Management - Prevention",
+          "Risk Reduction Plans with Associated Costs",
+          "Site Remediation",
+          "Contractor Monitoring",
+          "Employee Training",
+          "Applicable Legal Permits",
+          "Environmental Restoration"
+        ]
+      },
+      "monitoring": {
+        "title": "Risk Monitoring",
+        "text": "<strong>NAVESTRIAS EHS</strong> monitors chemical, biological and physical risks, both in the workplace and in the associated environment."
+      }
+    },
+    "work": {
+      "title": "We Work with Employers and Employees to:",
+      "items": [
+        "Provide cost-effective solutions to minimize or eliminate risks and hazards",
+        "Establish procedures to increase industrial safety in the workplace and improve human comfort",
+        "Compliance with Health, Safety and Environmental Regulations",
+        "Provide good faith and due diligence assessments"
+      ],
+      "team": "<strong>NAVESTRIAS EHS</strong> has Project Managers such as Chemical Engineers, Occupational Health and Safety Specialists and Environmental Specialists."
+    },
+    "legislation": {
+      "title": "Applicable Legislation",
+      "intro": "NAVESTRIAS EHS carries out its work in accordance with applicable legislation in:",
+      "argentina": {
+        "title": "ARGENTINA",
+        "items": [
+          "National Law 24051 Hazardous Waste, Regulatory Decree 831/93",
+          "National Law 25612 Industrial Waste Management",
+          "Law 19587 -Occupational Health and Safety- and Law 24557 -Occupational Risks-",
+          "Safety Program",
+          "Law 1249 GCBA",
+          "Emergency and Evacuation Plan",
+          "Law 11720 Special Waste. SPA Province of Buenos Aires",
+          "Law 11723 SPA Province of Buenos Aires",
+          "Environmental Impact Studies",
+          "Occupational Risk Analysis"
+        ]
+      },
+      "brazil": {
+        "title": "BRAZIL",
+        "subtitle": "Regulatory Standards - NR -",
+        "items": [
+          "PPRA Environmental Risk Prevention Program",
+          "PCMSO Occupational Health Medical Control Program",
+          "PCMAT Work Environment Conditions Program",
+          "Ergonomic Reports",
+          "PPR (Respiratory Protection Program)",
+          "PGA (Hearing Management Program)",
+          "Polluting Activities Licensing System - SLAP.",
+          "Environmental Impact Study - EIA",
+          "Environmental Impact Report - RIMA"
+        ]
+      },
+      "venezuela": {
+        "title": "VENEZUELA",
+        "items": [
+          "Organic Law on Prevention, Conditions and Work Environment. Official Gazette No. 38.236",
+          "Organic Environmental Law. Official Gazette No. 5.833 Extraordinary",
+          "Environmental Audit",
+          "Environmental Impact Assessment"
+        ]
+      },
+      "spain": {
+        "title": "SPAIN",
+        "items": [
+          "Environmental Impact Assessment, Royal Legislative Decree 1302/1986, amended by Law 6/2001",
+          "Occupational Risk Prevention Law, Law 31/1995"
+        ]
+      }
+    },
     "cta": {
       "title": "Want to Learn More About Our Company?",
       "button": "Contact Us"
     }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Professional Solutions in Environment, Occupational Health and Safety"
   },
   "clients": {
     "title": "Our Clients",
@@ -53,6 +138,17 @@
       "title": "Completed Projects",
       "text": "NAVESTRIAS EHS has worked with major companies on Environment, Occupational Health and Safety projects in Argentina, Brazil, Chile and Uruguay."
     },
+    "projects": [
+      "Environmental Impact Assessment. Centro-Oeste Pipeline Expansion. Argentina, 1995. Consulting at ARCAN SA for TGN SA.",
+      "Environmental Impact Assessment. Loop Construction in the Northern Pipeline Argentina, 1996. Consulting at ARCAN SA for TGN SA.",
+      "Environmental Impact Assessment. Scraper Trap Installation Aldao-Santa Fe Pipeline. 1996. Consulting at ARCAN SA for TGN SA.",
+      "Environmental Inspection. Gasandes Pipeline Construction. Argentina-Chile. 1996 Field Work, at ARCAN SA for GASANDES SA",
+      "Environmental Impact Assessment. Construction of feeding pipeline San Nicolas Thermoelectric Plant. 1997. Consulting at ARCAN SA for AES Inc.",
+      "Environment, Occupational Health and Safety Inspection. Gaspacifico Pipeline Construction. Argentina-Chile. 1999 Field Work, at ARCAN SA for GASPACIFICO SA",
+      "Environment, Occupational Health and Safety Audit in the construction of Cruz Del Sur Pipeline. 2001. Argentina-Uruguay. Consulting at SERMAN and Associates for GASODUCTO CRUZ DEL SUR SA.",
+      "Environmental Impact Assessment. Cardales, Gral Pacheco and Gral. Rodriguez Plants Adaptation for scraper passage. 2001. Consulting at HASA for TGN SA.",
+      "Occupational Health and Safety Inspection. Lagoon System Regulation, Gomez Carpincho Rocha. Argentina, 2004. Field Work, at SERMAN and associates"
+    ],
     "cta": {
       "title": "Want to Work with Us?",
       "button": "Contact Us"

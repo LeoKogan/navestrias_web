@@ -74,6 +74,7 @@
 		let currentImageIndex = 0;
 		let currentLang = 'es';
 		let galleryData = [];
+		let galleryLoaded = false;
 
 		// Load gallery content when language is ready
 		window.addEventListener('languageLoaded', function(e) {
@@ -85,8 +86,20 @@
 			document.title = `${t.title || 'Gallery'} - Navestrias EHS`;
 
 			// Load gallery with current language
-			loadGallery();
+			if (!galleryLoaded) {
+				loadGallery();
+				galleryLoaded = true;
+			}
 		});
+
+		// Fallback: Load gallery after 2 seconds if language event hasn't fired
+		setTimeout(function() {
+			if (!galleryLoaded) {
+				console.log('Loading gallery with fallback...');
+				loadGallery();
+				galleryLoaded = true;
+			}
+		}, 2000);
 
 		function loadGallery() {
 			// Get gallery data with language-specific captions
@@ -104,7 +117,7 @@
 				div.className = 'gallery-item';
 				div.onclick = () => openLightbox(index);
 				div.innerHTML = `
-					<img src="${item.thumb}" alt="${item.caption}" loading="lazy">
+					<img src="${item.image}" alt="${item.caption}" loading="lazy">
 					<div class="gallery-caption">${item.caption}</div>
 				`;
 				grid.appendChild(div);
